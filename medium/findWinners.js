@@ -14,7 +14,6 @@ var findWinners = function (matches) {
     }
   }
   for (player in playerRecords) {
-    console.log(playerRecords[player][0])
     if (playerRecords[player][0] > 0 && playerRecords[player][1] === 0) {
       victors[0].push(Number(player))
     } else if (playerRecords[player][1] === 1) {
